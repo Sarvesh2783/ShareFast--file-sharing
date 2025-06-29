@@ -4,7 +4,6 @@
 ![Issues](https://img.shields.io/github/issues/Sarvesh2783/ShareFast--file-sharing)
 ![PRs](https://img.shields.io/github/issues-pr/Sarvesh2783/ShareFast--file-sharing)
 ![Stars](https://img.shields.io/github/stars/Sarvesh2783/ShareFast--file-sharing?style=social)
-![Deploy Status](https://img.shields.io/badge/deploy-ready-brightgreen)
 
 **ShareFast** is a blazing-fast, modern, and secure file-sharing platform that allows users to upload and share files via links, eliminating the need for account creation or third-party storage. Built with a performant Node.js backend and a responsive modern frontend.
 
@@ -31,6 +30,8 @@
 - Multer for handling multipart/form-data
 - UUID for unique file links
 - dotenv for configuration
+- nodemailer and rate limiting
+- cron jobs
 
 ### 🎨 Frontend
 - HTML, CSS, JavaScript (Vanilla)
